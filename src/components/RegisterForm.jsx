@@ -16,7 +16,7 @@ const RegisterForm = () => {
     dispatch(setUser(data));
     alert('User registered successfully!');
     reset();
-    navigate('/'); // Navigate to login page after registration
+    navigate('/');
   };
 
   return (
